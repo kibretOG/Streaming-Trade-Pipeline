@@ -1,0 +1,16 @@
+[2025-04-12T19:29:16.479+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-12T19:29:16.506+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-12T19:29:14.090614+00:00 [queued]>
+[2025-04-12T19:29:16.522+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-12T19:29:14.090614+00:00 [queued]>
+[2025-04-12T19:29:16.523+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-12T19:29:16.553+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-04-12 19:29:14.090614+00:00
+[2025-04-12T19:29:16.570+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=893) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-12T19:29:16.575+0000] {standard_task_runner.py:72} INFO - Started process 894 to run task
+[2025-04-12T19:29:16.575+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pull_trade_data', 'stream_data_from_api', 'manual__2025-04-12T19:29:14.090614+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/testy_web_scoket.py', '--cfg-path', '/tmp/tmpwisf61yg']
+[2025-04-12T19:29:16.581+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask stream_data_from_api
+[2025-04-12T19:29:16.638+0000] {task_command.py:467} INFO - Running <TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-12T19:29:14.090614+00:00 [running]> on host cf80ab16823f
+[2025-04-12T19:29:16.717+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kibret_og' AIRFLOW_CTX_DAG_ID='pull_trade_data' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-04-12T19:29:14.090614+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-12T19:29:14.090614+00:00'
+[2025-04-12T19:29:16.718+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-12T19:29:16.950+0000] {_logging.py:89} INFO - Websocket connected
+[2025-04-12T19:29:16.951+0000] {log.py:232} WARNING - [2025-04-12 19:29:16.951572] ### connection is open ###

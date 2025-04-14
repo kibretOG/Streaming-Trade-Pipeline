@@ -1,0 +1,26 @@
+[2025-04-11T19:12:02.759+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-11T19:12:02.776+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T19:12:00.827285+00:00 [queued]>
+[2025-04-11T19:12:02.782+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T19:12:00.827285+00:00 [queued]>
+[2025-04-11T19:12:02.782+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-11T19:12:02.792+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-04-11 19:12:00.827285+00:00
+[2025-04-11T19:12:02.802+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=117) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-11T19:12:02.805+0000] {standard_task_runner.py:72} INFO - Started process 118 to run task
+[2025-04-11T19:12:02.805+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pull_trade_data', 'stream_data_from_api', 'manual__2025-04-11T19:12:00.827285+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/testy_web_scoket.py', '--cfg-path', '/tmp/tmptxmwrhwo']
+[2025-04-11T19:12:02.809+0000] {standard_task_runner.py:105} INFO - Job 16: Subtask stream_data_from_api
+[2025-04-11T19:12:02.896+0000] {task_command.py:467} INFO - Running <TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T19:12:00.827285+00:00 [running]> on host 9a973d2e6438
+[2025-04-11T19:12:02.974+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kibret_og' AIRFLOW_CTX_DAG_ID='pull_trade_data' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T19:12:00.827285+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-11T19:12:00.827285+00:00'
+[2025-04-11T19:12:02.974+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-11T19:12:03.185+0000] {_logging.py:89} INFO - Websocket connected
+[2025-04-11T19:12:03.186+0000] {log.py:232} WARNING - [2025-04-11 19:12:03.186263] ### connection is open ###
+[2025-04-11T19:12:03.480+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 198.36000061035156, 'timestamp': 1744398722000, 'marketHours': 1, 'changePercent': 4.169731616973877, 'dayVolume': 60874944, 'change': 7.94000244140625, 'priceHint': 2}
+[2025-04-11T19:12:03.481+0000] {logging_mixin.py:190} INFO - <class 'websocket._app.WebSocketApp'>
+[2025-04-11T19:12:03.532+0000] {_logging.py:77} ERROR - error from callback <bound method YLiveTicker.on_close of <yliveticker.YLiveTicker object at 0xffff7cbab350>>: YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-11T19:12:03.533+0000] {log.py:232} WARNING - [2025-04-11 19:12:03.533932] YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-11T19:12:03.534+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-11T19:12:03.561+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-11T19:12:03.562+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=pull_trade_data, task_id=stream_data_from_api, run_id=manual__2025-04-11T19:12:00.827285+00:00, execution_date=20250411T191200, start_date=20250411T191202, end_date=20250411T191203
+[2025-04-11T19:12:03.626+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-11T19:12:03.647+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T19:12:03.648+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

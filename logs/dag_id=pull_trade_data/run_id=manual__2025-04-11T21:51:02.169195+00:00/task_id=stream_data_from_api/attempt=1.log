@@ -1,0 +1,25 @@
+[2025-04-11T21:51:03.546+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-11T21:51:03.557+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T21:51:02.169195+00:00 [queued]>
+[2025-04-11T21:51:03.560+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T21:51:02.169195+00:00 [queued]>
+[2025-04-11T21:51:03.561+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-11T21:51:03.566+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-04-11 21:51:02.169195+00:00
+[2025-04-11T21:51:03.573+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=217) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-11T21:51:03.576+0000] {standard_task_runner.py:72} INFO - Started process 218 to run task
+[2025-04-11T21:51:03.575+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pull_trade_data', 'stream_data_from_api', 'manual__2025-04-11T21:51:02.169195+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/testy_web_scoket.py', '--cfg-path', '/tmp/tmpxskqq0id']
+[2025-04-11T21:51:03.578+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask stream_data_from_api
+[2025-04-11T21:51:03.622+0000] {task_command.py:467} INFO - Running <TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-11T21:51:02.169195+00:00 [running]> on host cf80ab16823f
+[2025-04-11T21:51:03.724+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kibret_og' AIRFLOW_CTX_DAG_ID='pull_trade_data' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-04-11T21:51:02.169195+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-11T21:51:02.169195+00:00'
+[2025-04-11T21:51:03.728+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-11T21:51:04.085+0000] {_logging.py:89} INFO - Websocket connected
+[2025-04-11T21:51:04.087+0000] {log.py:232} WARNING - [2025-04-11 21:51:04.087402] ### connection is open ###
+[2025-04-11T21:51:07.253+0000] {logging_mixin.py:190} INFO - An error occured: a bytes-like object is required, not 'dict'
+[2025-04-11T21:51:07.284+0000] {_logging.py:77} ERROR - error from callback <bound method YLiveTicker.on_close of <yliveticker.YLiveTicker object at 0xffff78759910>>: YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-11T21:51:07.286+0000] {log.py:232} WARNING - [2025-04-11 21:51:07.286216] YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-11T21:51:07.287+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-11T21:51:07.314+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-11T21:51:07.315+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=pull_trade_data, task_id=stream_data_from_api, run_id=manual__2025-04-11T21:51:02.169195+00:00, execution_date=20250411T215102, start_date=20250411T215103, end_date=20250411T215107
+[2025-04-11T21:51:07.364+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-11T21:51:07.386+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T21:51:07.387+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
