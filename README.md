@@ -22,7 +22,7 @@ In-progress data pipeline built for streaming and processing trade datamusing Ap
 ---
 
 ### 3. **Processing: Apache Spark**
-- Stream and batch process Kafka data to clean, enrich, and prepare it for serving.
+- Stream and process Kafka data to clean, enrich, and prepare it for serving.
 - **Integration**:
   - Read from Kafka topic.
   - Apply transformations.
