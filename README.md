@@ -1,6 +1,6 @@
-# 📊 Event-Driven Data Pipeline (WIP)
+# Event-Driven Data Pipeline (WIP)
 
-Iin-progress data pipeline built for streaming and processing trade datamusing Apache Airflow, Kafka, Spark, and a Flask API to enable scalable, real-time data movement and processing.
+In-progress data pipeline built for streaming and processing trade datamusing Apache Airflow, Kafka, Spark, and a Flask API to enable scalable, real-time data movement and processing.
 
 ---
 
