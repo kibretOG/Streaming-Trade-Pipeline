@@ -1,0 +1,772 @@
+[2025-04-16T01:23:09.811+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:09.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:23:09.822+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:23:09.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:09.846+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:23:09.843+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:23:09.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:09.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.100 seconds
+[2025-04-16T01:23:40.813+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:40.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:23:40.820+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:23:40.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:40.827+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:23:40.824+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:23:40.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:23:40.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.036 seconds
+[2025-04-16T01:24:10.899+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:10.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:24:10.909+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:24:10.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:10.918+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:24:10.916+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:24:10.919+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:10.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.050 seconds
+[2025-04-16T01:24:40.999+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:41.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:24:41.005+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:24:41.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:41.013+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:24:41.010+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:24:41.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:24:41.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.064 seconds
+[2025-04-16T01:25:11.376+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:25:11.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:25:11.390+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:25:11.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:25:11.397+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:25:11.395+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:25:11.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:25:11.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.136 seconds
+[2025-04-16T01:26:45.973+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:26:45.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:26:45.979+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:26:45.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:26:45.983+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:26:45.982+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:26:45.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:26:46.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.052 seconds
+[2025-04-16T01:27:16.463+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:16.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:27:16.476+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:27:16.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:16.488+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:27:16.484+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:27:16.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:16.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.076 seconds
+[2025-04-16T01:27:46.991+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:46.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:27:46.996+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:27:46.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:47.004+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:27:47.002+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:27:47.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:27:47.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.047 seconds
+[2025-04-16T01:28:17.472+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:17.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:28:17.476+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:28:17.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:17.481+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:28:17.480+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:28:17.481+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:17.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.038 seconds
+[2025-04-16T01:28:47.976+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:47.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:28:48.002+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:28:48.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:48.015+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:28:48.012+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:28:48.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:28:48.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.087 seconds
+[2025-04-16T01:29:18.318+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:18.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:29:18.334+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:29:18.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:18.353+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:29:18.350+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:29:18.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:18.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.075 seconds
+[2025-04-16T01:29:48.776+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:48.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:29:48.780+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:29:48.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:48.784+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:29:48.783+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:29:48.785+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:29:48.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.050 seconds
+[2025-04-16T01:30:19.220+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:19.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:30:19.225+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:30:19.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:19.232+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:30:19.230+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:30:19.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:19.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.045 seconds
+[2025-04-16T01:30:49.595+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:49.597+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:30:49.601+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:30:49.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:49.607+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:30:49.606+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:30:49.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:30:49.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.049 seconds
+[2025-04-16T01:31:20.010+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:20.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:31:20.023+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:31:20.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:20.029+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:31:20.028+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:31:20.029+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:20.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.081 seconds
+[2025-04-16T01:31:50.473+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:50.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:31:50.477+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:31:50.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:50.484+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:31:50.482+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:31:50.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:31:50.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.046 seconds
+[2025-04-16T01:32:20.842+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:20.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:32:20.848+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:32:20.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:20.863+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:32:20.859+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:32:20.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:20.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.063 seconds
+[2025-04-16T01:32:51.188+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:51.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:32:51.197+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:32:51.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:51.203+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:32:51.202+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:32:51.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:32:51.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.060 seconds
+[2025-04-16T01:33:21.766+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:21.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:33:21.772+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:33:21.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:21.777+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:33:21.776+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:33:21.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:21.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.044 seconds
+[2025-04-16T01:33:52.411+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:52.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:33:52.416+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:33:52.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:52.421+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:33:52.420+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:33:52.421+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:33:52.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.050 seconds
+[2025-04-16T01:34:22.846+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:34:22.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:34:22.851+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:34:22.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:34:22.858+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:34:22.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+ModuleNotFoundError: No module named 'yliveticker'
+[2025-04-16T01:34:22.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:34:22.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.050 seconds
+[2025-04-16T01:36:48.710+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:36:48.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:36:48.714+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:36:48.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:36:48.814+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:36:48.813+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/__init__.py", line 7, in <module>
+    from .yaticker_pb2 import yaticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/yaticker_pb2.py", line 33, in <module>
+    _descriptor.EnumValueDescriptor(
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/protobuf/descriptor.py", line 789, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2025-04-16T01:36:48.815+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:36:48.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.123 seconds
+[2025-04-16T01:37:19.095+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:19.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:37:19.100+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:37:19.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:19.127+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:37:19.125+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/__init__.py", line 7, in <module>
+    from .yaticker_pb2 import yaticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/yaticker_pb2.py", line 33, in <module>
+    _descriptor.EnumValueDescriptor(
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/protobuf/descriptor.py", line 789, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2025-04-16T01:37:19.127+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:19.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.062 seconds
+[2025-04-16T01:37:49.736+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:49.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:37:49.757+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:37:49.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:49.804+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:37:49.801+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testy_web_scoket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testy_web_scoket.py", line 2, in <module>
+    import yliveticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/__init__.py", line 7, in <module>
+    from .yaticker_pb2 import yaticker
+  File "/home/airflow/.local/lib/python3.12/site-packages/yliveticker/yaticker_pb2.py", line 33, in <module>
+    _descriptor.EnumValueDescriptor(
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/protobuf/descriptor.py", line 789, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2025-04-16T01:37:49.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:37:49.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.111 seconds
+[2025-04-16T01:39:11.698+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:11.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:39:11.703+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:11.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:11.795+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:12.067+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.066+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:pull_trade_data
+[2025-04-16T01:39:12.076+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.075+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:pull_trade_data
+[2025-04-16T01:39:12.079+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.079+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:pull_trade_data
+[2025-04-16T01:39:12.089+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.088+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:pull_trade_data
+[2025-04-16T01:39:12.095+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.095+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:pull_trade_data
+[2025-04-16T01:39:12.102+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.102+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:pull_trade_data
+[2025-04-16T01:39:12.109+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.108+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:pull_trade_data
+[2025-04-16T01:39:12.109+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:39:12.120+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.120+0000] {dag.py:3262} INFO - Creating ORM DAG for pull_trade_data
+[2025-04-16T01:39:12.128+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:12.128+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:39:12.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.460 seconds
+[2025-04-16T01:39:42.518+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:42.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:39:42.525+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:42.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:42.690+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:39:42.830+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:42.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:39:42.852+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:39:42.851+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:39:42.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.367 seconds
+[2025-04-16T01:40:13.334+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:13.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:40:13.346+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:13.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:13.392+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:13.535+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:13.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:40:13.552+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:13.551+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:40:13.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.239 seconds
+[2025-04-16T01:40:43.813+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:43.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:40:43.823+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:43.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:43.881+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:40:44.021+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:44.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:40:44.036+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:40:44.036+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:40:44.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.245 seconds
+[2025-04-16T01:41:14.161+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:41:14.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:41:14.165+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:41:14.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:41:14.222+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:41:14.310+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:41:14.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:41:14.324+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:41:14.323+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:41:14.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.183 seconds
+[2025-04-16T01:51:29.890+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:51:29.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:51:29.898+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:51:29.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:51:29.960+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:51:30.198+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:51:30.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:51:30.236+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:51:30.236+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:51:30.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.531 seconds
+[2025-04-16T01:52:00.645+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:00.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:52:00.648+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:00.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:00.685+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:00.771+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:00.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:52:00.782+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:00.782+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:52:00.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.150 seconds
+[2025-04-16T01:52:30.949+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:30.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:52:30.957+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:30.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:31.005+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:52:31.156+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:31.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:52:31.168+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:52:31.168+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:52:31.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.237 seconds
+[2025-04-16T01:53:01.335+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:01.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:53:01.339+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:01.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:01.394+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:01.491+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:01.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:53:01.503+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:01.503+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:53:01.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.186 seconds
+[2025-04-16T01:53:31.772+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:31.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:53:31.776+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:31.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:31.823+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:53:31.890+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:31.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:53:31.902+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:53:31.902+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:53:31.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.146 seconds
+[2025-04-16T01:54:02.100+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:02.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:54:02.104+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:02.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:02.146+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:02.218+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:02.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:54:02.227+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:02.227+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:54:02.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.147 seconds
+[2025-04-16T01:54:32.370+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:32.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:54:32.374+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:32.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:32.415+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:54:32.532+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:32.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:54:32.547+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:54:32.547+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:54:32.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.368 seconds
+[2025-04-16T01:55:46.940+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:55:46.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:55:46.950+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:55:46.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:55:47.034+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:55:47.600+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:55:47.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:55:47.636+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:55:47.635+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:55:47.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.744 seconds
+[2025-04-16T01:56:17.968+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:17.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:56:17.971+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:17.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:18.014+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:18.124+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:18.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:56:18.156+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:18.156+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:56:18.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.207 seconds
+[2025-04-16T01:56:48.458+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:48.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:56:48.463+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:48.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:48.506+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:56:48.591+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:48.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:56:48.603+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:56:48.603+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:56:48.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.162 seconds
+[2025-04-16T01:57:18.782+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:18.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:57:18.787+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:18.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:18.848+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:18.927+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:18.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:57:18.938+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:18.938+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:57:18.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.180 seconds
+[2025-04-16T01:57:49.115+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:49.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:57:49.119+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:49.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:49.165+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:57:49.261+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:49.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:57:49.274+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:57:49.274+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:57:49.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.181 seconds
+[2025-04-16T01:58:19.608+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:19.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:58:19.616+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:19.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:19.675+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:19.784+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:19.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:58:19.801+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:19.801+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:58:19.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.225 seconds
+[2025-04-16T01:58:49.963+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:49.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:58:49.969+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:49.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:50.021+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:58:50.101+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:50.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:58:50.116+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:58:50.116+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:58:50.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.430 seconds
+[2025-04-16T01:59:20.703+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:20.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:59:20.710+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:20.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:20.754+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:20.897+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:20.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:59:21.193+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:21.192+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:59:21.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.518 seconds
+[2025-04-16T01:59:51.595+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:51.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T01:59:51.601+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:51.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:51.647+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T01:59:51.728+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:51.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T01:59:51.940+0000] {logging_mixin.py:190} INFO - [2025-04-16T01:59:51.940+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T01:59:51.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.370 seconds
+[2025-04-16T02:00:22.254+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:22.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:00:22.258+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:22.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:22.298+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:22.605+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:22.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:00:22.620+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:22.619+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:00:22.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.382 seconds
+[2025-04-16T02:00:52.935+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:52.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:00:52.942+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:52.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:52.983+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:00:53.203+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:53.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:00:53.213+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:00:53.213+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:00:53.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.296 seconds
+[2025-04-16T02:01:23.298+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:23.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:01:23.304+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:23.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:23.339+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:23.560+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:23.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:01:23.569+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:23.569+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:01:23.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.289 seconds
+[2025-04-16T02:01:53.868+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:53.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:01:53.874+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:53.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:53.914+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:01:54.136+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:54.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:01:54.146+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:01:54.146+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:01:54.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.296 seconds
+[2025-04-16T02:02:24.235+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:24.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:02:24.239+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:24.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:24.288+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:24.582+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:24.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:02:24.592+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:24.592+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:02:24.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.375 seconds
+[2025-04-16T02:02:54.820+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:54.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:02:54.831+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:54.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:54.917+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:02:55.241+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:55.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:02:55.251+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:02:55.250+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:02:55.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.457 seconds
+[2025-04-16T02:03:25.685+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:25.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:03:25.700+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:25.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:25.765+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:26.093+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:26.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:03:26.103+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:26.103+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:03:26.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.439 seconds
+[2025-04-16T02:03:56.541+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:56.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:03:56.549+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:56.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:56.595+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:03:56.846+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:56.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:03:56.855+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:03:56.855+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:03:56.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.344 seconds
+[2025-04-16T02:04:27.126+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:27.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:04:27.141+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:27.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:27.203+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:27.461+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:27.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:04:27.472+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:27.472+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:04:27.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.373 seconds
+[2025-04-16T02:04:44.689+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:44.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:04:44.703+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:44.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:44.773+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:44.790+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:44.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:04:44.824+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:44.824+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:04:44.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.172 seconds
+[2025-04-16T02:04:59.822+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:59.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:04:59.832+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:04:59.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:04:59.873+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:00.096+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:00.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:00.105+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:00.105+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:00.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.300 seconds
+[2025-04-16T02:05:10.162+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:10.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:10.171+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:10.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:10.230+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:10.250+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:10.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:10.270+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:10.270+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:10.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.140 seconds
+[2025-04-16T02:05:12.230+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:12.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:12.233+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:12.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:12.262+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:12.269+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:12.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:12.280+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:12.280+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:12.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.066 seconds
+[2025-04-16T02:05:15.301+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:15.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:15.308+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:15.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:15.378+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:15.391+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:15.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:15.410+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:15.410+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:15.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.136 seconds
+[2025-04-16T02:05:22.398+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:22.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:22.401+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:22.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:22.436+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:22.449+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:22.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:22.467+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:22.467+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:22.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.085 seconds
+[2025-04-16T02:05:25.532+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:25.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:25.536+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:25.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:25.573+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:25.586+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:25.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:25.614+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:25.613+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:25.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.104 seconds
+[2025-04-16T02:05:34.717+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:34.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:05:34.724+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:34.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:34.790+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:05:35.112+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:35.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:05:35.121+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:05:35.121+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:05:35.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.438 seconds
+[2025-04-16T02:06:05.422+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:05.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:06:05.427+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:05.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:05.468+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:05.759+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:05.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:06:05.769+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:05.769+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:06:05.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.367 seconds
+[2025-04-16T02:06:26.011+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:26.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:06:26.017+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:26.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:26.073+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:26.091+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:26.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:06:26.287+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:26.287+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:06:26.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.295 seconds
+[2025-04-16T02:06:44.224+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:44.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:06:44.232+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:44.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:44.284+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:06:44.566+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:44.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:06:44.575+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:06:44.575+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:06:44.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.372 seconds
+[2025-04-16T02:07:14.968+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:14.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:07:14.976+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:14.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:15.025+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:15.261+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:15.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:07:15.272+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:15.271+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:07:15.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.318 seconds
+[2025-04-16T02:07:43.510+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:43.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:07:43.521+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:43.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:43.600+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:43.628+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:43.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:07:43.671+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:43.671+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:07:43.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.194 seconds
+[2025-04-16T02:07:49.701+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:49.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:07:49.710+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:49.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:49.768+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:50.152+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:50.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:07:50.162+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:50.162+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:07:50.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.483 seconds
+[2025-04-16T02:07:51.210+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:51.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:07:51.213+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:51.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:51.243+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:51.251+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:51.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:07:51.262+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:51.262+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:07:51.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.069 seconds
+[2025-04-16T02:07:56.343+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:56.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:07:56.348+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:56.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:56.405+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:07:56.425+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:56.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:07:56.455+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:07:56.455+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:07:56.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.140 seconds
+[2025-04-16T02:08:01.442+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:01.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:08:01.447+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:01.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:01.495+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:01.513+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:01.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:08:01.533+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:01.533+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:08:01.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.117 seconds
+[2025-04-16T02:08:13.738+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:13.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:08:13.749+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:13.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:13.803+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:13.820+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:13.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:08:13.845+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:13.844+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:08:13.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.130 seconds
+[2025-04-16T02:08:18.874+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:18.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:08:18.882+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:18.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:18.945+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:18.963+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:18.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:08:18.982+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:18.982+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:08:19.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.351 seconds
+[2025-04-16T02:08:40.565+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:40.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:08:40.573+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:40.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:40.624+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:08:40.935+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:40.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:08:40.945+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:08:40.945+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:08:40.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.402 seconds
+[2025-04-16T02:09:11.367+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:11.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:09:11.380+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:11.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:11.428+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:11.731+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:11.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:09:11.742+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:11.742+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:09:11.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.396 seconds
+[2025-04-16T02:09:42.072+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:42.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:09:42.079+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:42.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:42.366+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:09:42.420+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:42.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:09:42.431+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:09:42.431+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:09:42.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.386 seconds
+[2025-04-16T02:10:12.806+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:12.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:10:12.819+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:12.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:12.896+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:13.265+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:13.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:10:13.274+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:13.274+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:10:13.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.489 seconds
+[2025-04-16T02:10:43.633+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:43.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:10:43.644+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:43.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:43.692+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:10:43.928+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:43.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:10:43.939+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:10:43.939+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:10:43.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.328 seconds
+[2025-04-16T02:11:14.312+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:14.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:11:14.331+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:14.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:14.374+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:14.622+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:14.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:11:14.632+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:14.632+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:11:14.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.342 seconds
+[2025-04-16T02:11:44.955+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:44.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:11:44.966+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:44.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:45.044+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:11:45.383+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:45.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:11:45.410+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:45.410+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:11:45.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.484 seconds

@@ -16,23 +16,21 @@ def stream_to_kafka():
         'bootstrap.servers' : 'broker:29092'
     }
     producer = Producer(conf)
-    print({'tick': 'trial'})
-    producer.produce('trade_occurance_raw', key="key", value=json.dumps({'tick': 'trial'}).encode('utf-8'))
-    producer.flush()
-    # def on_new_msg(ws, msg):
-    #     try:
-    #         producer.produce('trade_occurance_raw', key="key", value=json.dumps({'tick': 'trial'}).encode('utf-8'))
-    #         # producer.flush()
-    #         print('successful ingestion')
-    #     except Exception as e:
-    #         print(f'An error occured: {e}')
-    #     ws.close()
-    # yliveticker.YLiveTicker(
-    #     on_ticker=on_new_msg,
-    #     ticker_names=[
-    #         "JPY=X)"
-    #     ]
-    # )
+    
+    def on_new_msg(ws, msg):
+        try:
+            producer.produce('trade_occurance_raw', value=json.dumps(msg).encode('utf-8'))
+            producer.flush()
+            print('successful ingestion')
+        except Exception as e:
+            print(f'An error occured: {e}')
+        # ws.close()
+    yliveticker.YLiveTicker(
+        on_ticker=on_new_msg,
+        ticker_names=[
+            "JPY=X"
+        ]
+    )
     # producer.flush()
 
     
