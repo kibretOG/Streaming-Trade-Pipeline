@@ -20,18 +20,20 @@ def stream_to_kafka():
     def on_new_msg(ws, msg):
         try:
             producer.produce('trade_occurance_raw', value=json.dumps(msg).encode('utf-8'))
+            # producer.produce('trade_occurance_raw', value={'testy':'testy'})
             producer.flush()
+            print(msg)
             print('successful ingestion')
+            # ws.close()
         except Exception as e:
             print(f'An error occured: {e}')
         # ws.close()
     yliveticker.YLiveTicker(
         on_ticker=on_new_msg,
         ticker_names=[
-            "JPY=X"
+            "AAPL"
         ]
     )
-    # producer.flush()
 
     
 with DAG('pull_trade_data',

@@ -770,3 +770,1018 @@ More information: https://developers.google.com/protocol-buffers/docs/news/2022-
 [2025-04-16T02:11:45.383+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:45.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-16T02:11:45.410+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:11:45.410+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
 [2025-04-16T02:11:45.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.484 seconds
+[2025-04-16T02:12:15.742+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:15.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:12:15.749+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:15.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:15.788+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:16.051+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:16.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:12:16.064+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:16.064+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:12:16.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.350 seconds
+[2025-04-16T02:12:46.425+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:46.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:12:46.433+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:46.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:46.748+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:12:46.837+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:46.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:12:46.847+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:12:46.847+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:12:46.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.459 seconds
+[2025-04-16T02:13:17.232+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:17.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:13:17.237+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:17.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:17.278+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:17.564+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:17.564+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:13:17.574+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:17.573+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:13:17.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.362 seconds
+[2025-04-16T02:13:47.923+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:47.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:13:47.928+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:47.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:47.970+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:13:48.238+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:48.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:13:48.248+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:13:48.248+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:13:48.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.339 seconds
+[2025-04-16T02:14:18.568+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:18.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:14:18.575+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:18.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:18.688+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:18.990+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:18.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:14:19.002+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:19.002+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:14:19.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.466 seconds
+[2025-04-16T02:14:49.440+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:49.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:14:49.446+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:49.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:49.497+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:14:49.804+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:49.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:14:49.815+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:14:49.814+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:14:49.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.389 seconds
+[2025-04-16T02:15:20.113+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:20.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:15:20.120+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:20.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:20.172+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:20.422+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:20.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:15:20.432+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:20.432+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:15:20.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.339 seconds
+[2025-04-16T02:15:50.731+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:50.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:15:50.739+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:50.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:50.792+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:15:51.184+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:51.183+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:15:51.194+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:15:51.194+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:15:51.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.480 seconds
+[2025-04-16T02:16:21.506+0000] {processor.py:186} INFO - Started process (PID=347) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:21.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:16:21.513+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:21.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:21.554+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:21.839+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:21.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:16:21.849+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:21.849+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:16:21.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.358 seconds
+[2025-04-16T02:16:52.140+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:52.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:16:52.146+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:52.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:52.182+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:16:52.439+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:52.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:16:52.449+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:16:52.449+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:16:52.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.332 seconds
+[2025-04-16T02:17:22.758+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:22.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:17:22.764+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:22.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:22.806+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:23.086+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:23.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:17:23.095+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:23.095+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:17:23.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.357 seconds
+[2025-04-16T02:17:53.450+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:53.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:17:53.457+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:53.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:53.500+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:17:53.802+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:53.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:17:53.812+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:17:53.812+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:17:53.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.380 seconds
+[2025-04-16T02:18:23.987+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:23.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:18:24.003+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:24.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:24.379+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:24.461+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:24.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:18:24.473+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:24.473+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:18:24.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.513 seconds
+[2025-04-16T02:18:54.688+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:54.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:18:54.700+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:54.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:54.760+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:18:55.131+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:55.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:18:55.148+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:18:55.147+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:18:55.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.486 seconds
+[2025-04-16T02:19:25.443+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:25.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:19:25.449+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:25.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:25.494+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:25.771+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:25.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:19:25.780+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:25.780+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:19:25.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.355 seconds
+[2025-04-16T02:19:56.112+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:56.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:19:56.120+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:56.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:56.173+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:19:56.447+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:56.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:19:56.456+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:19:56.456+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:19:56.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.365 seconds
+[2025-04-16T02:20:26.766+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:26.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:20:26.778+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:26.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:26.826+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:27.105+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:27.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:20:27.114+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:27.113+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:20:27.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.371 seconds
+[2025-04-16T02:20:57.407+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:57.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:20:57.413+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:57.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:57.450+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:20:57.663+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:57.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:20:57.672+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:20:57.672+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:20:57.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.286 seconds
+[2025-04-16T02:21:28.009+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:28.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:21:28.020+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:28.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:28.337+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:28.401+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:28.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:21:28.410+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:28.410+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:21:28.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.419 seconds
+[2025-04-16T02:21:58.822+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:58.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:21:58.829+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:58.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:58.893+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:21:59.162+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:59.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:21:59.171+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:21:59.171+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:21:59.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.371 seconds
+[2025-04-16T02:22:29.548+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:22:29.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:22:29.554+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:22:29.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:22:29.609+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:22:29.924+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:22:29.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:22:29.936+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:22:29.936+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:22:29.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.412 seconds
+[2025-04-16T02:23:00.321+0000] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:00.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:23:00.328+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:00.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:00.382+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:00.679+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:00.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:23:00.689+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:00.688+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:23:00.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.387 seconds
+[2025-04-16T02:23:31.017+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:31.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:23:31.025+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:31.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:31.080+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:23:31.379+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:31.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:23:31.387+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:23:31.387+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:23:31.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.387 seconds
+[2025-04-16T02:24:01.721+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:01.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:24:01.727+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:01.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:02.065+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:02.147+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:02.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:24:02.157+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:02.157+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:24:02.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.455 seconds
+[2025-04-16T02:24:32.535+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:32.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:24:32.541+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:32.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:32.600+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:24:32.938+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:32.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:24:32.947+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:24:32.947+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:24:32.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.433 seconds
+[2025-04-16T02:25:03.258+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:03.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:25:03.265+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:03.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:03.314+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:03.541+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:03.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:25:03.554+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:03.554+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:25:03.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.317 seconds
+[2025-04-16T02:25:33.864+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:33.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:25:33.872+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:33.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:33.937+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:25:34.152+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:34.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:25:34.160+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:25:34.160+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:25:34.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.317 seconds
+[2025-04-16T02:26:04.238+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:04.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:26:04.244+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:04.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:04.288+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:04.522+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:04.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:26:04.531+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:04.531+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:26:04.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.309 seconds
+[2025-04-16T02:26:35.522+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:35.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:26:35.534+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:35.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:35.585+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:26:36.185+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:36.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:26:36.199+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:26:36.199+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:26:36.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.700 seconds
+[2025-04-16T02:27:06.877+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:27:06.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:27:06.901+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:27:06.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:27:07.469+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:27:07.620+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:27:07.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:27:07.642+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:27:07.641+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:27:07.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.852 seconds
+[2025-04-16T02:29:02.233+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:29:02.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:29:02.236+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:29:02.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:29:02.278+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:29:02.549+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:29:02.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:29:02.563+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:29:02.563+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:29:02.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.347 seconds
+[2025-04-16T02:31:21.314+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:21.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:31:21.317+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:21.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:21.368+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:21.715+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:21.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:31:21.726+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:21.726+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:31:21.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.428 seconds
+[2025-04-16T02:31:52.068+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:52.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:31:52.074+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:52.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:52.148+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:31:52.609+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:52.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:31:52.619+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:31:52.619+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:31:52.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.569 seconds
+[2025-04-16T02:32:22.938+0000] {processor.py:186} INFO - Started process (PID=529) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:22.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:32:22.941+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:22.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:22.995+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:23.301+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:23.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:32:23.311+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:23.311+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:32:23.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.392 seconds
+[2025-04-16T02:32:53.648+0000] {processor.py:186} INFO - Started process (PID=536) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:53.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:32:53.653+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:53.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:53.883+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:32:53.935+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:53.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:32:53.950+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:32:53.950+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:32:53.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.323 seconds
+[2025-04-16T02:33:24.242+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:24.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:33:24.246+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:24.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:24.525+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:24.578+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:24.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:33:24.587+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:24.587+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:33:24.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.368 seconds
+[2025-04-16T02:33:54.909+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:54.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:33:54.911+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:54.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:54.970+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:33:55.242+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:55.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:33:55.254+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:33:55.254+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:33:55.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.365 seconds
+[2025-04-16T02:34:25.592+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:25.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:34:25.596+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:25.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:25.656+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:25.968+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:25.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:34:25.977+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:25.977+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:34:25.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.410 seconds
+[2025-04-16T02:34:56.314+0000] {processor.py:186} INFO - Started process (PID=564) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:56.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:34:56.317+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:56.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:56.409+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:34:56.746+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:56.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:34:56.758+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:34:56.758+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:34:56.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.462 seconds
+[2025-04-16T02:35:27.095+0000] {processor.py:186} INFO - Started process (PID=571) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:27.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:35:27.098+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:27.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:27.169+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:27.444+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:27.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:35:27.452+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:27.452+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:35:27.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.380 seconds
+[2025-04-16T02:35:57.783+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:57.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:35:57.787+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:57.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:58.083+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:35:58.174+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:58.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:35:58.195+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:35:58.195+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:35:58.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.436 seconds
+[2025-04-16T02:36:28.565+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:28.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:36:28.572+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:28.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:28.636+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:28.962+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:28.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:36:28.971+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:28.971+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:36:28.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.424 seconds
+[2025-04-16T02:36:59.281+0000] {processor.py:186} INFO - Started process (PID=592) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:59.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:36:59.290+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:59.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:59.348+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:36:59.623+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:59.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:36:59.632+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:36:59.632+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:36:59.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.370 seconds
+[2025-04-16T02:37:29.974+0000] {processor.py:186} INFO - Started process (PID=599) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:37:29.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:37:29.981+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:37:29.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:37:30.036+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:37:30.324+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:37:30.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:37:30.332+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:37:30.332+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:37:30.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.378 seconds
+[2025-04-16T02:38:00.599+0000] {processor.py:186} INFO - Started process (PID=606) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:00.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:38:00.603+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:00.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:00.656+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:00.895+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:00.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:38:00.902+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:00.902+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:38:00.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.318 seconds
+[2025-04-16T02:38:31.190+0000] {processor.py:186} INFO - Started process (PID=613) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:31.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:38:31.192+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:31.192+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:31.410+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:38:31.466+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:31.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:38:31.475+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:38:31.474+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:38:31.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.301 seconds
+[2025-04-16T02:39:01.767+0000] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:01.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:39:01.770+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:01.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:01.976+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:02.026+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:02.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:39:02.034+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:02.034+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:39:02.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.285 seconds
+[2025-04-16T02:39:32.293+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:32.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:39:32.296+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:32.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:32.347+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:39:32.611+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:32.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:39:32.620+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:39:32.620+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:39:32.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.347 seconds
+[2025-04-16T02:40:02.950+0000] {processor.py:186} INFO - Started process (PID=634) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:02.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:40:02.954+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:02.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:03.020+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:03.285+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:03.285+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:40:03.294+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:03.294+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:40:03.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.368 seconds
+[2025-04-16T02:40:33.612+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:33.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:40:33.616+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:33.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:33.671+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:40:33.937+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:33.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:40:33.946+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:40:33.946+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:40:33.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.354 seconds
+[2025-04-16T02:41:04.288+0000] {processor.py:186} INFO - Started process (PID=648) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:04.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:41:04.291+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:04.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:04.343+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:04.616+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:04.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:41:04.630+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:04.630+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:41:04.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.366 seconds
+[2025-04-16T02:41:34.943+0000] {processor.py:186} INFO - Started process (PID=655) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:34.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:41:34.946+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:34.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:35.185+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:41:35.235+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:35.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:41:35.243+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:41:35.243+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:41:35.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.318 seconds
+[2025-04-16T02:42:05.490+0000] {processor.py:186} INFO - Started process (PID=662) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:05.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:42:05.494+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:05.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:05.543+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:05.785+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:05.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:42:05.793+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:05.793+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:42:05.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.321 seconds
+[2025-04-16T02:42:36.151+0000] {processor.py:186} INFO - Started process (PID=669) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:36.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:42:36.156+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:36.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:36.201+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:42:36.427+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:36.427+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:42:36.438+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:42:36.438+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:42:36.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.307 seconds
+[2025-04-16T02:43:06.742+0000] {processor.py:186} INFO - Started process (PID=676) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:06.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:43:06.746+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:06.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:06.795+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:07.074+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:07.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:43:07.086+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:07.086+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:43:07.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.363 seconds
+[2025-04-16T02:43:37.410+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:37.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:43:37.414+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:37.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:37.464+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:43:37.737+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:37.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:43:37.746+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:43:37.746+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:43:37.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.357 seconds
+[2025-04-16T02:44:08.074+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:08.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:44:08.078+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:08.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:08.126+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:08.367+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:08.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:44:08.376+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:08.375+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:44:08.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.320 seconds
+[2025-04-16T02:44:38.714+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:38.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:44:38.718+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:38.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:38.925+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:44:38.980+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:38.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:44:38.988+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:44:38.988+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:44:38.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.295 seconds
+[2025-04-16T02:45:09.066+0000] {processor.py:186} INFO - Started process (PID=704) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:09.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:45:09.070+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:09.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:09.123+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:09.369+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:09.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:45:09.378+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:09.378+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:45:09.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.328 seconds
+[2025-04-16T02:45:39.596+0000] {processor.py:186} INFO - Started process (PID=711) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:39.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:45:39.601+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:39.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:39.656+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:45:39.868+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:39.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:45:39.876+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:45:39.876+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:45:39.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.296 seconds
+[2025-04-16T02:46:09.952+0000] {processor.py:186} INFO - Started process (PID=718) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:09.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:46:09.957+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:09.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:10.007+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:10.187+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:10.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:46:10.195+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:10.194+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:46:10.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.257 seconds
+[2025-04-16T02:46:40.488+0000] {processor.py:186} INFO - Started process (PID=725) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:40.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:46:40.490+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:40.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:40.531+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:46:40.827+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:40.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:46:40.838+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:46:40.838+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:46:40.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.369 seconds
+[2025-04-16T02:47:11.148+0000] {processor.py:186} INFO - Started process (PID=732) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:11.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:47:11.151+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:11.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:11.376+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:11.428+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:11.428+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:47:11.438+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:11.438+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:47:11.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.308 seconds
+[2025-04-16T02:47:41.733+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:41.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:47:41.736+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:41.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:41.945+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:47:41.994+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:41.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:47:42.001+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:47:42.001+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:47:42.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.284 seconds
+[2025-04-16T02:48:12.322+0000] {processor.py:186} INFO - Started process (PID=745) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:12.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:48:12.325+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:12.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:12.383+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:12.716+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:12.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:48:12.729+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:12.729+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:48:12.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.424 seconds
+[2025-04-16T02:48:43.003+0000] {processor.py:186} INFO - Started process (PID=757) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:43.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:48:43.005+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:43.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:43.041+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:48:43.275+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:43.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:48:43.289+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:48:43.289+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:48:43.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.300 seconds
+[2025-04-16T02:49:13.570+0000] {processor.py:186} INFO - Started process (PID=764) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:13.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:49:13.575+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:13.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:13.625+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:13.842+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:13.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:49:13.851+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:13.851+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:49:13.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.300 seconds
+[2025-04-16T02:49:44.122+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:44.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:49:44.138+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:44.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:44.174+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:49:44.373+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:44.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:49:44.384+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:49:44.384+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:49:44.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.278 seconds
+[2025-04-16T02:50:14.457+0000] {processor.py:186} INFO - Started process (PID=778) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:14.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:50:14.461+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:14.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:14.660+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:14.712+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:14.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:50:14.719+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:14.719+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:50:14.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.278 seconds
+[2025-04-16T02:50:45.029+0000] {processor.py:186} INFO - Started process (PID=785) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:45.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:50:45.032+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:45.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:45.371+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:50:45.450+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:45.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:50:45.460+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:50:45.460+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:50:45.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.454 seconds
+[2025-04-16T02:51:15.746+0000] {processor.py:186} INFO - Started process (PID=792) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:15.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:51:15.748+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:15.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:15.791+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:16.066+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:16.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:51:16.079+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:16.079+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:51:16.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.349 seconds
+[2025-04-16T02:51:46.448+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:46.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:51:46.452+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:46.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:46.507+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:51:46.769+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:46.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:51:46.777+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:51:46.777+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:51:46.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.348 seconds
+[2025-04-16T02:52:17.110+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:17.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:52:17.114+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:17.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:17.163+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:17.396+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:17.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:52:17.404+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:17.404+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:52:17.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.310 seconds
+[2025-04-16T02:52:47.766+0000] {processor.py:186} INFO - Started process (PID=813) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:47.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:52:47.776+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:47.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:48.025+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:52:48.081+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:48.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:52:48.092+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:52:48.092+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:52:48.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.343 seconds
+[2025-04-16T02:53:18.384+0000] {processor.py:186} INFO - Started process (PID=820) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:18.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:53:18.387+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:18.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:18.615+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:18.662+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:18.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:53:18.670+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:18.670+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:53:18.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.308 seconds
+[2025-04-16T02:53:48.993+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:48.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:53:48.996+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:48.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:49.041+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:53:49.276+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:49.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:53:49.288+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:53:49.288+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:53:49.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.327 seconds
+[2025-04-16T02:54:19.367+0000] {processor.py:186} INFO - Started process (PID=834) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:19.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:54:19.370+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:19.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:19.428+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:19.658+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:19.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:54:19.666+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:19.666+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:54:19.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.315 seconds
+[2025-04-16T02:54:50.031+0000] {processor.py:186} INFO - Started process (PID=841) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:50.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:54:50.041+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:50.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:50.094+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:54:50.343+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:50.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:54:50.352+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:54:50.352+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:54:50.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.345 seconds
+[2025-04-16T02:55:20.768+0000] {processor.py:186} INFO - Started process (PID=848) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:55:20.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:55:20.772+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:55:20.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:55:20.825+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:55:21.056+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:55:21.056+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:55:21.066+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:55:21.066+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:55:21.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.317 seconds
+[2025-04-16T02:56:43.495+0000] {processor.py:186} INFO - Started process (PID=849) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:56:43.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:56:43.497+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:56:43.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:56:43.520+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:56:43.632+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:56:43.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:56:43.640+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:56:43.640+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:56:43.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.156 seconds
+[2025-04-16T02:57:13.876+0000] {processor.py:186} INFO - Started process (PID=856) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:57:13.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:57:13.882+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:57:13.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:57:14.103+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:57:14.157+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:57:14.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:57:14.166+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:57:14.166+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:57:14.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.315 seconds
+[2025-04-16T02:58:50.836+0000] {processor.py:186} INFO - Started process (PID=863) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:58:50.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:58:50.839+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:58:50.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:58:51.148+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:58:51.210+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:58:51.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:58:51.222+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:58:51.222+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:58:51.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.408 seconds
+[2025-04-16T02:59:21.527+0000] {processor.py:186} INFO - Started process (PID=870) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:21.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:59:21.531+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:21.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:21.581+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:21.828+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:21.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:59:21.837+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:21.837+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:59:21.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.332 seconds
+[2025-04-16T02:59:52.133+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:52.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T02:59:52.139+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:52.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:52.176+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T02:59:52.362+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:52.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T02:59:52.370+0000] {logging_mixin.py:190} INFO - [2025-04-16T02:59:52.370+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T02:59:52.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.259 seconds
+[2025-04-16T03:00:22.656+0000] {processor.py:186} INFO - Started process (PID=884) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:22.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:00:22.660+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:22.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:22.713+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:22.916+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:22.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:00:22.924+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:22.924+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:00:22.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.284 seconds
+[2025-04-16T03:00:53.234+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:53.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:00:53.240+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:53.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:53.421+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:00:53.468+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:53.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:00:53.476+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:00:53.475+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:00:53.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.258 seconds
+[2025-04-16T03:01:23.559+0000] {processor.py:186} INFO - Started process (PID=898) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:23.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:01:23.565+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:23.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:23.760+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:23.805+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:23.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:01:23.814+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:23.814+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:01:23.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.274 seconds
+[2025-04-16T03:01:54.081+0000] {processor.py:186} INFO - Started process (PID=905) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:54.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:01:54.085+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:54.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:54.123+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:01:54.298+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:54.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:01:54.306+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:01:54.306+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:01:54.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.240 seconds
+[2025-04-16T03:02:24.383+0000] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:24.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:02:24.392+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:24.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:24.454+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:24.719+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:24.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:02:24.729+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:24.729+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:02:24.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.369 seconds
+[2025-04-16T03:02:54.851+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:54.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:02:54.854+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:54.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:54.896+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:02:55.099+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:55.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:02:55.107+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:02:55.107+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:02:55.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.280 seconds
+[2025-04-16T03:03:25.288+0000] {processor.py:186} INFO - Started process (PID=926) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:25.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:03:25.291+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:25.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:25.336+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:25.561+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:25.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:03:25.569+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:25.568+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:03:25.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.296 seconds
+[2025-04-16T03:03:55.646+0000] {processor.py:186} INFO - Started process (PID=933) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:55.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:03:55.650+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:55.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:55.865+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:03:55.924+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:55.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:03:55.933+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:03:55.933+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:03:55.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.306 seconds
+[2025-04-16T03:04:26.079+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:26.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:04:26.081+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:26.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:26.272+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:26.317+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:26.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:04:26.327+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:26.327+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:04:26.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.265 seconds
+[2025-04-16T03:04:56.454+0000] {processor.py:186} INFO - Started process (PID=947) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:56.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:04:56.456+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:56.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:56.498+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:04:56.897+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:56.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:04:56.930+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:04:56.929+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:04:56.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.503 seconds
+[2025-04-16T03:05:27.256+0000] {processor.py:186} INFO - Started process (PID=954) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:27.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:05:27.259+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:27.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:27.299+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:27.584+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:27.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:05:27.596+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:27.596+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:05:27.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.352 seconds
+[2025-04-16T03:05:58.007+0000] {processor.py:186} INFO - Started process (PID=961) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:58.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:05:58.010+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:58.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:58.054+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:05:58.270+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:58.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:05:58.280+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:05:58.280+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:05:58.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.290 seconds
+[2025-04-16T03:06:28.778+0000] {processor.py:186} INFO - Started process (PID=968) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:06:28.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:06:28.786+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:06:28.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:06:29.177+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:06:29.279+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:06:29.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:06:29.293+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:06:29.293+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:06:29.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.541 seconds
+[2025-04-16T03:06:59.685+0000] {processor.py:186} INFO - Started process (PID=975) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:06:59.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:06:59.690+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:06:59.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:07:00.153+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:07:00.243+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:07:00.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:07:00.260+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:07:00.260+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:07:00.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.600 seconds
+[2025-04-16T03:07:30.372+0000] {processor.py:186} INFO - Started process (PID=982) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:07:30.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:07:30.379+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:07:30.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:07:30.740+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:07:30.833+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:07:30.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:07:30.850+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:07:30.850+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:07:30.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.504 seconds
+[2025-04-16T03:08:01.146+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:01.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:08:01.150+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:01.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:01.216+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:01.518+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:01.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:08:01.534+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:01.534+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:08:01.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.418 seconds
+[2025-04-16T03:08:31.831+0000] {processor.py:186} INFO - Started process (PID=996) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:31.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:08:31.834+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:31.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:31.893+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:08:32.212+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:32.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:08:32.225+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:08:32.225+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:08:32.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.412 seconds
+[2025-04-16T03:09:02.510+0000] {processor.py:186} INFO - Started process (PID=1003) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:02.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:09:02.514+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:02.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:02.561+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:02.903+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:02.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:09:02.918+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:02.918+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:09:02.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.429 seconds
+[2025-04-16T03:09:33.248+0000] {processor.py:186} INFO - Started process (PID=1010) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:33.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:09:33.252+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:33.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:33.571+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:09:33.661+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:33.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:09:33.682+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:09:33.681+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:09:33.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.454 seconds
+[2025-04-16T03:10:03.988+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:03.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:10:03.996+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:03.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:04.443+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:04.557+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:04.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:10:04.579+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:04.579+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:10:04.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.618 seconds
+[2025-04-16T03:10:34.862+0000] {processor.py:186} INFO - Started process (PID=1024) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:34.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:10:34.865+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:34.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:34.925+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:10:35.306+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:35.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:10:35.321+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:10:35.320+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:10:35.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.477 seconds
+[2025-04-16T03:11:05.666+0000] {processor.py:186} INFO - Started process (PID=1031) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:05.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:11:05.671+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:05.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:05.747+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:06.202+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:06.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:11:06.217+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:06.217+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:11:06.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.578 seconds
+[2025-04-16T03:11:36.427+0000] {processor.py:186} INFO - Started process (PID=1038) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:36.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:11:36.432+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:36.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:36.495+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:11:36.932+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:36.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:11:36.947+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:11:36.946+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:11:36.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.547 seconds
+[2025-04-16T03:13:03.017+0000] {processor.py:186} INFO - Started process (PID=1045) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:03.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:13:03.029+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:03.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:03.130+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:03.925+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:03.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:13:03.947+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:03.947+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:13:03.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.974 seconds
+[2025-04-16T03:13:34.158+0000] {processor.py:186} INFO - Started process (PID=1052) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:34.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:13:34.163+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:34.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:34.684+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:13:34.848+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:34.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:13:34.870+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:13:34.870+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:13:34.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.758 seconds
+[2025-04-16T03:14:05.323+0000] {processor.py:186} INFO - Started process (PID=1059) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:05.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:14:05.329+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:05.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:05.776+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:05.876+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:05.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:14:05.893+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:05.892+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:14:05.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.601 seconds
+[2025-04-16T03:14:35.991+0000] {processor.py:186} INFO - Started process (PID=1066) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:35.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:14:35.999+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:35.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:36.677+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:14:37.127+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:37.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:14:37.157+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:14:37.157+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:14:37.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 1.208 seconds
+[2025-04-16T03:15:07.729+0000] {processor.py:186} INFO - Started process (PID=1073) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:07.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:15:07.740+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:07.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:07.841+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:08.370+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:08.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:15:08.393+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:08.393+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:15:08.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.712 seconds
+[2025-04-16T03:15:38.864+0000] {processor.py:186} INFO - Started process (PID=1080) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:38.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:15:38.867+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:38.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:38.951+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:15:39.378+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:39.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:15:39.394+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:15:39.394+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:15:39.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.551 seconds
+[2025-04-16T03:16:09.769+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:09.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:16:09.774+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:09.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:09.843+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:10.250+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:10.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:16:10.263+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:10.263+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:16:10.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.519 seconds
+[2025-04-16T03:16:40.872+0000] {processor.py:186} INFO - Started process (PID=1094) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:40.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:16:40.876+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:40.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:41.239+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:16:41.324+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:41.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:16:41.339+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:16:41.339+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:16:41.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.490 seconds
+[2025-04-16T03:23:08.982+0000] {processor.py:186} INFO - Started process (PID=1101) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:23:08.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:23:08.985+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:23:08.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:23:09.354+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:23:09.431+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:23:09.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:23:09.446+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:23:09.446+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:23:09.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.484 seconds
+[2025-04-16T03:38:07.893+0000] {processor.py:186} INFO - Started process (PID=1108) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:38:07.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T03:38:07.896+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:38:07.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:38:07.969+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T03:38:08.772+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:38:08.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T03:38:08.812+0000] {logging_mixin.py:190} INFO - [2025-04-16T03:38:08.812+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T03:38:08.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.968 seconds
+[2025-04-16T04:11:57.120+0000] {processor.py:186} INFO - Started process (PID=1115) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:11:57.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:11:57.124+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:11:57.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:11:57.194+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:11:58.049+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:11:58.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:11:58.093+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:11:58.093+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:11:58.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 1.017 seconds
+[2025-04-16T04:12:28.314+0000] {processor.py:186} INFO - Started process (PID=1122) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:28.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:12:28.321+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:28.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:28.825+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:28.916+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:28.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:12:28.930+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:28.930+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:12:28.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.650 seconds
+[2025-04-16T04:12:59.350+0000] {processor.py:186} INFO - Started process (PID=1129) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:59.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:12:59.359+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:59.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:59.768+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:12:59.863+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:59.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:12:59.879+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:12:59.879+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:12:59.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.561 seconds
+[2025-04-16T04:13:30.333+0000] {processor.py:186} INFO - Started process (PID=1136) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:13:30.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:13:30.339+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:13:30.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:13:30.924+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:13:31.031+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:13:31.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:13:31.050+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:13:31.050+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:13:31.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.753 seconds
+[2025-04-16T04:42:13.227+0000] {processor.py:186} INFO - Started process (PID=1143) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:42:13.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:42:13.231+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:42:13.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:42:13.417+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:42:15.618+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:42:15.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:42:15.663+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:42:15.662+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:42:15.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 2.475 seconds
+[2025-04-16T04:45:00.800+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:45:00.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T04:45:00.806+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:45:00.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:45:00.872+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T04:45:01.350+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:45:01.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T04:45:01.364+0000] {logging_mixin.py:190} INFO - [2025-04-16T04:45:01.364+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T04:45:01.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.583 seconds
+[2025-04-16T06:43:32.707+0000] {processor.py:186} INFO - Started process (PID=1157) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T06:43:32.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T06:43:32.713+0000] {logging_mixin.py:190} INFO - [2025-04-16T06:43:32.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T06:43:34.234+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T06:43:35.293+0000] {logging_mixin.py:190} INFO - [2025-04-16T06:43:35.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T06:43:35.319+0000] {logging_mixin.py:190} INFO - [2025-04-16T06:43:35.318+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T06:43:35.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 2.638 seconds
+[2025-04-16T08:41:32.017+0000] {processor.py:186} INFO - Started process (PID=1164) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T08:41:32.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T08:41:32.023+0000] {logging_mixin.py:190} INFO - [2025-04-16T08:41:32.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T08:41:32.511+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T08:41:32.863+0000] {logging_mixin.py:190} INFO - [2025-04-16T08:41:32.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T08:41:32.885+0000] {logging_mixin.py:190} INFO - [2025-04-16T08:41:32.884+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T08:41:32.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.898 seconds
+[2025-04-16T09:59:51.516+0000] {processor.py:186} INFO - Started process (PID=1170) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T09:59:51.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T09:59:51.535+0000] {logging_mixin.py:190} INFO - [2025-04-16T09:59:51.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T09:59:51.721+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T09:59:52.589+0000] {logging_mixin.py:190} INFO - [2025-04-16T09:59:52.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T09:59:52.607+0000] {logging_mixin.py:190} INFO - [2025-04-16T09:59:52.607+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T09:59:52.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 1.165 seconds
+[2025-04-16T11:34:21.222+0000] {processor.py:186} INFO - Started process (PID=1177) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T11:34:21.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T11:34:21.226+0000] {logging_mixin.py:190} INFO - [2025-04-16T11:34:21.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T11:34:21.304+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T11:34:21.808+0000] {logging_mixin.py:190} INFO - [2025-04-16T11:34:21.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T11:34:21.821+0000] {logging_mixin.py:190} INFO - [2025-04-16T11:34:21.821+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T11:34:21.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.638 seconds
+[2025-04-16T13:35:16.544+0000] {processor.py:186} INFO - Started process (PID=1183) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T13:35:16.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T13:35:16.550+0000] {logging_mixin.py:190} INFO - [2025-04-16T13:35:16.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T13:35:17.240+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T13:35:17.393+0000] {logging_mixin.py:190} INFO - [2025-04-16T13:35:17.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T13:35:17.434+0000] {logging_mixin.py:190} INFO - [2025-04-16T13:35:17.433+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T13:35:17.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.939 seconds
+[2025-04-16T14:36:15.629+0000] {processor.py:186} INFO - Started process (PID=1190) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T14:36:15.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T14:36:15.633+0000] {logging_mixin.py:190} INFO - [2025-04-16T14:36:15.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T14:36:16.135+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T14:36:16.218+0000] {logging_mixin.py:190} INFO - [2025-04-16T14:36:16.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T14:36:16.233+0000] {logging_mixin.py:190} INFO - [2025-04-16T14:36:16.233+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T14:36:16.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.625 seconds
+[2025-04-16T16:31:55.995+0000] {processor.py:186} INFO - Started process (PID=1197) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:31:55.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T16:31:55.999+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:31:55.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:31:56.052+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:31:56.378+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:31:56.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:31:56.397+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:31:56.396+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T16:31:56.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.427 seconds
+[2025-04-16T16:32:26.489+0000] {processor.py:186} INFO - Started process (PID=1204) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:26.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T16:32:26.492+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:26.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:26.547+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:26.960+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:26.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:32:26.973+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:26.973+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T16:32:26.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.504 seconds
+[2025-04-16T16:32:57.275+0000] {processor.py:186} INFO - Started process (PID=1211) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:57.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T16:32:57.279+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:57.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:57.349+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:32:57.762+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:57.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:32:57.774+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:32:57.774+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T16:32:57.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.520 seconds
+[2025-04-16T16:33:28.111+0000] {processor.py:186} INFO - Started process (PID=1218) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:33:28.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T16:33:28.114+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:33:28.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:33:28.388+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T16:33:28.456+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:33:28.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T16:33:28.468+0000] {logging_mixin.py:190} INFO - [2025-04-16T16:33:28.468+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T16:33:28.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.374 seconds
+[2025-04-16T17:39:15.344+0000] {processor.py:186} INFO - Started process (PID=1224) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T17:39:15.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T17:39:15.350+0000] {logging_mixin.py:190} INFO - [2025-04-16T17:39:15.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T17:39:16.069+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T17:39:16.162+0000] {logging_mixin.py:190} INFO - [2025-04-16T17:39:16.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T17:39:16.183+0000] {logging_mixin.py:190} INFO - [2025-04-16T17:39:16.183+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T17:39:16.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.864 seconds
+[2025-04-16T18:12:45.470+0000] {processor.py:186} INFO - Started process (PID=1231) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T18:12:45.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T18:12:45.473+0000] {logging_mixin.py:190} INFO - [2025-04-16T18:12:45.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T18:12:45.833+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T18:12:45.918+0000] {logging_mixin.py:190} INFO - [2025-04-16T18:12:45.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T18:12:45.932+0000] {logging_mixin.py:190} INFO - [2025-04-16T18:12:45.931+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T18:12:45.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.479 seconds
+[2025-04-16T20:42:21.012+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:42:21.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T20:42:21.019+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:42:21.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:42:21.095+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:42:21.500+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:42:21.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T20:42:21.513+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:42:21.513+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T20:42:21.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.525 seconds
+[2025-04-16T20:52:41.483+0000] {processor.py:186} INFO - Started process (PID=1245) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:52:41.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T20:52:41.487+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:52:41.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:52:41.827+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:52:41.906+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:52:41.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T20:52:41.919+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:52:41.919+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T20:52:41.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.454 seconds
+[2025-04-16T20:53:12.223+0000] {processor.py:186} INFO - Started process (PID=1252) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:12.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T20:53:12.227+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:12.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:12.556+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:12.626+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:12.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T20:53:12.638+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:12.638+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T20:53:12.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.434 seconds
+[2025-04-16T20:53:42.923+0000] {processor.py:186} INFO - Started process (PID=1259) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:42.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T20:53:42.927+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:42.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:43.220+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:53:43.291+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:43.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T20:53:43.304+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:53:43.304+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T20:53:43.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.399 seconds
+[2025-04-16T20:54:13.599+0000] {processor.py:186} INFO - Started process (PID=1266) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:54:13.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T20:54:13.603+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:54:13.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:54:13.898+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T20:54:13.980+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:54:13.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T20:54:13.993+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:54:13.993+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T20:54:14.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.418 seconds
+[2025-04-16T21:43:26.083+0000] {processor.py:186} INFO - Started process (PID=1273) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T21:43:26.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T21:43:26.087+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:43:26.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T21:43:26.206+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T21:43:27.017+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:43:27.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:43:27.059+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:43:27.058+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T21:43:27.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 1.022 seconds
+[2025-04-16T22:44:22.343+0000] {processor.py:186} INFO - Started process (PID=1280) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T22:44:22.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T22:44:22.347+0000] {logging_mixin.py:190} INFO - [2025-04-16T22:44:22.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T22:44:22.857+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T22:44:23.164+0000] {logging_mixin.py:190} INFO - [2025-04-16T22:44:23.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T22:44:23.199+0000] {logging_mixin.py:190} INFO - [2025-04-16T22:44:23.199+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T22:44:23.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.894 seconds
+[2025-04-16T23:29:27.119+0000] {processor.py:186} INFO - Started process (PID=1287) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:27.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T23:29:27.130+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:27.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:28.650+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:28.962+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:28.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T23:29:29.036+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:29.036+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T23:29:29.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 1.977 seconds
+[2025-04-16T23:29:59.215+0000] {processor.py:186} INFO - Started process (PID=1294) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:59.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T23:29:59.220+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:59.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:59.758+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:29:59.850+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:59.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T23:29:59.869+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:29:59.869+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T23:29:59.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 0.684 seconds
+[2025-04-16T23:55:10.616+0000] {processor.py:186} INFO - Started process (PID=1301) to work on /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:55:10.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testy_web_scoket.py for tasks to queue
+[2025-04-16T23:55:10.622+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:55:10.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:55:11.002+0000] {processor.py:925} INFO - DAG(s) 'pull_trade_data' retrieved from /opt/airflow/dags/testy_web_scoket.py
+[2025-04-16T23:55:12.996+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:55:12.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T23:55:13.049+0000] {logging_mixin.py:190} INFO - [2025-04-16T23:55:13.048+0000] {dag.py:4180} INFO - Setting next_dagrun for pull_trade_data to 2025-04-17 00:00:00+00:00, run_after=2025-04-18 00:00:00+00:00
+[2025-04-16T23:55:13.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testy_web_scoket.py took 2.526 seconds

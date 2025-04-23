@@ -10,7 +10,6 @@ RUN apt-get update && \
 
 COPY requirements.txt /
 
-# Switch to airflow user before pip install
 USER airflow
 
 RUN pip install --no-cache-dir -r /requirements.txt

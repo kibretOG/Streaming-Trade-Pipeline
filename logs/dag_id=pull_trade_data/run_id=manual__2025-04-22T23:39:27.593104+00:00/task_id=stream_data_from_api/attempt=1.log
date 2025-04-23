@@ -1,0 +1,213 @@
+[2025-04-22T23:39:30.198+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-22T23:39:30.243+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-22T23:39:27.593104+00:00 [queued]>
+[2025-04-22T23:39:30.251+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-22T23:39:27.593104+00:00 [queued]>
+[2025-04-22T23:39:30.251+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-22T23:39:30.267+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2025-04-22 23:39:27.593104+00:00
+[2025-04-22T23:39:30.290+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=905) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-22T23:39:30.292+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pull_trade_data', 'stream_data_from_api', 'manual__2025-04-22T23:39:27.593104+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/testy_web_scoket.py', '--cfg-path', '/tmp/tmpv3749ybd']
+[2025-04-22T23:39:30.299+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask stream_data_from_api
+[2025-04-22T23:39:30.299+0000] {standard_task_runner.py:72} INFO - Started process 906 to run task
+[2025-04-22T23:39:30.343+0000] {task_command.py:467} INFO - Running <TaskInstance: pull_trade_data.stream_data_from_api manual__2025-04-22T23:39:27.593104+00:00 [running]> on host 4b7a1bffe8fb
+[2025-04-22T23:39:30.445+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kibret_og' AIRFLOW_CTX_DAG_ID='pull_trade_data' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-04-22T23:39:27.593104+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-22T23:39:27.593104+00:00'
+[2025-04-22T23:39:30.447+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-22T23:39:31.347+0000] {_logging.py:89} INFO - Websocket connected
+[2025-04-22T23:39:31.360+0000] {log.py:232} WARNING - [2025-04-22 23:39:31.359811] ### connection is open ###
+[2025-04-22T23:39:42.705+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365178000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:39:42.764+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:39:46.250+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365182000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:39:46.255+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:39:57.299+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365193000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:39:57.305+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:11.286+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.14990234375, 'timestamp': 1745365208000, 'marketHours': 2, 'changePercent': 2.7084693908691406, 'dayVolume': 0, 'change': 5.4098968505859375, 'priceHint': 2}
+[2025-04-22T23:40:11.291+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:14.199+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365212000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:40:14.211+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:18.219+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365215000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:40:18.233+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:24.632+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365221000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:40:24.703+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:33.091+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365232000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:40:33.097+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:40.339+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 204.9929962158203, 'timestamp': 1745365235000, 'marketHours': 2, 'changePercent': 2.6299142837524414, 'dayVolume': 0, 'change': 5.25299072265625, 'priceHint': 2}
+[2025-04-22T23:40:40.350+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:43.412+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365240000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:40:43.418+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:46.476+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 204.89999389648438, 'timestamp': 1745365244000, 'marketHours': 2, 'changePercent': 2.583352565765381, 'dayVolume': 0, 'change': 5.1599884033203125, 'priceHint': 2}
+[2025-04-22T23:40:46.482+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:40:56.174+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 204.86000061035156, 'timestamp': 1745365252000, 'marketHours': 2, 'changePercent': 2.5633299350738525, 'dayVolume': 0, 'change': 5.1199951171875, 'priceHint': 2}
+[2025-04-22T23:40:56.181+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:41:02.452+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 204.88999938964844, 'timestamp': 1745365259000, 'marketHours': 2, 'changePercent': 2.5783486366271973, 'dayVolume': 0, 'change': 5.149993896484375, 'priceHint': 2}
+[2025-04-22T23:41:02.456+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:41:08.321+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 204.7301025390625, 'timestamp': 1745365264000, 'marketHours': 2, 'changePercent': 2.4982962608337402, 'dayVolume': 0, 'change': 4.9900970458984375, 'priceHint': 2}
+[2025-04-22T23:41:08.334+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:41:21.428+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365279000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:41:21.436+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:41:22.415+0000] {logging_mixin.py:190} INFO - {'id': 'AAPL', 'exchange': 'NMS', 'quoteType': 8, 'price': 205.0, 'timestamp': 1745365279000, 'marketHours': 2, 'changePercent': 2.633420705795288, 'dayVolume': 0, 'change': 5.2599945068359375, 'priceHint': 2}
+[2025-04-22T23:41:22.416+0000] {logging_mixin.py:190} INFO - successful ingestion
+[2025-04-22T23:41:22.535+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-04-22T23:41:22.551+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-22T23:41:22.558+0000] {process_utils.py:132} INFO - Sending 15 to group 906. PIDs of all processes in the group: [906]
+[2025-04-22T23:41:22.559+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 906
+[2025-04-22T23:41:22.559+0000] {taskinstance.py:3094} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-04-22T23:41:22.621+0000] {taskinstance.py:3095} ERROR - Stacktrace: 
+  File "/home/***/.local/bin/***", line 8, in <module>
+    sys.exit(main())
+  File "/home/***/.local/lib/python3.12/site-packages/***/__main__.py", line 62, in main
+    args.func(args)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/cli/celery_command.py", line 64, in wrapper
+    providers_configuration_loaded(func)(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/cli/celery_command.py", line 237, in worker
+    _run_command_with_daemon_option(
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/cli/celery_command.py", line 50, in _run_command_with_daemon_option
+    run_command_with_daemon_option(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/daemon_utils.py", line 86, in run_command_with_daemon_option
+    callback()
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/cli/celery_command.py", line 230, in run_celery_worker
+    celery_app.worker_main(options)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/app/base.py", line 391, in worker_main
+    self.start(argv=argv)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/app/base.py", line 371, in start
+    celery.main(args=argv, standalone_mode=False)
+  File "/home/***/.local/lib/python3.12/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/***/.local/lib/python3.12/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/***/.local/lib/python3.12/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/***/.local/lib/python3.12/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/bin/base.py", line 135, in caller
+    return f(ctx, *args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/bin/worker.py", line 356, in worker
+    worker.start()
+  File "/home/***/.local/lib/python3.12/site-packages/celery/worker/worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "/home/***/.local/lib/python3.12/site-packages/celery/concurrency/base.py", line 130, in start
+    self.on_start()
+  File "/home/***/.local/lib/python3.12/site-packages/celery/concurrency/prefork.py", line 109, in on_start
+    P = self._pool = Pool(processes=self.limit,
+  File "/home/***/.local/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 464, in __init__
+    super().__init__(processes, *args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/pool.py", line 1046, in __init__
+    self._create_worker_process(i)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/concurrency/asynpool.py", line 482, in _create_worker_process
+    return super()._create_worker_process(i)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/pool.py", line 1158, in _create_worker_process
+    w.start()
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/process.py", line 120, in start
+    self._popen = self._Popen(self)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/context.py", line 331, in _Popen
+    return Popen(process_obj)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/popen_fork.py", line 22, in __init__
+    self._launch(process_obj)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/popen_fork.py", line 77, in _launch
+    code = process_obj._bootstrap()
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/process.py", line 323, in _bootstrap
+    self.run()
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/process.py", line 110, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/pool.py", line 292, in __call__
+    sys.exit(self.workloop(pid=pid))
+  File "/home/***/.local/lib/python3.12/site-packages/billiard/pool.py", line 362, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+  File "/home/***/.local/lib/python3.12/site-packages/celery/app/trace.py", line 651, in fast_trace_task
+    R, I, T, Rstr = tasks[task].__trace__(
+  File "/home/***/.local/lib/python3.12/site-packages/celery/app/trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/celery/app/trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/executors/celery_executor_utils.py", line 139, in execute_command
+    _execute_in_fork(command_to_exec, celery_task_id)
+  File "/home/***/.local/lib/python3.12/site-packages/***/providers/celery/executors/celery_executor_utils.py", line 171, in _execute_in_fork
+    args.func(args)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 254, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 322, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/jobs/job.py", line 421, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/home/***/.local/lib/python3.12/site-packages/***/jobs/job.py", line 450, in execute_job
+    ret = execute_callable()
+  File "/home/***/.local/lib/python3.12/site-packages/***/jobs/local_task_job_runner.py", line 171, in _execute
+    self.task_runner.start()
+  File "/home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py", line 55, in start
+    self.process = self._start_by_fork()
+  File "/home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/***/.local/lib/python3.12/site-packages/***/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/***/.local/lib/python3.12/site-packages/***/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/***/.local/lib/python3.12/site-packages/***/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/***/dags/testy_web_scoket.py", line 31, in stream_to_kafka
+    yliveticker.YLiveTicker(
+  File "/home/***/.local/lib/python3.12/site-packages/yliveticker/__init__.py", line 44, in __init__
+    self.ws.run_forever()
+  File "/home/***/.local/lib/python3.12/site-packages/websocket/_app.py", line 616, in run_forever
+    setSock()
+  File "/home/***/.local/lib/python3.12/site-packages/websocket/_app.py", line 511, in setSock
+    dispatcher.read(self.sock.sock, read, check)
+  File "/home/***/.local/lib/python3.12/site-packages/websocket/_app.py", line 112, in read
+    if self.select(sock, sel):
+  File "/home/***/.local/lib/python3.12/site-packages/websocket/_app.py", line 126, in select
+    r = sel.select(self.ping_timeout)
+  File "/usr/local/lib/python3.12/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/***/.local/lib/python3.12/site-packages/***/models/taskinstance.py", line 3095, in signal_handler
+    self.log.error("Stacktrace: \n%s", "".join(traceback.format_stack()))
+
+[2025-04-22T23:41:22.702+0000] {_logging.py:77} ERROR - error from callback <bound method YLiveTicker.on_close of <yliveticker.YLiveTicker object at 0xffff8d2908c0>>: YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-22T23:41:22.703+0000] {log.py:232} WARNING - [2025-04-22 23:41:22.703030] YLiveTicker.on_close() takes 2 positional arguments but 4 were given
+[2025-04-22T23:41:22.795+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-22T23:41:22.828+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=906, status='terminated', exitcode=0, started='23:39:29') (906) terminated with exit code 0
